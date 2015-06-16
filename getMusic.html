@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get The Music From the XML</title>
+    <script src="Module/audio.js"></script>
+    <script>
+        window.onload = function() {
+            var parser = new DOMParser();
+            xmlDocument = parser.parseFromString(xml, "text/xml");
+            //console.log(XMLDocument);
+            
+            var elementsArray = xmlDocument.documentElement.getElementsByTagName('composition');
+            //console.log(elementsArray);
+            
+            var arrayLength = elementsArray.length;
+            var output = "<table>";
+            for(var i = 0; i < arrayLength; i++) {
+                var title = elementsArray[i].getElementsByTagName('title')[0].firstChild.nodeValue;
+                var composer = elementsArray[i].getElementsByTagName('composer')[0].firstChild.nodeValue;
+                var time = elementsArray[i].getElementsByTagName('time')[0].firstChild.nodeValue;
+                var quality = elementsArray[i].getElementsByTagName('quality')[0].firstChild.nodeValue;
+                var filename = elementsArray[i].getElementsByTagName('filename')[0].firstChild.nodeValue;
+                output += "<tr>";
+                output += ("<td>" + title + "</td><td>" + time + "</td><td>" + quality + "</td><td>" + filename + "</td>");
+                output += "</tr>";
+                //console.log(title + "; " + composer + "; " + time + "; " + quality + "; " + filename  + "; ");
+            }
+            output += "</table>";
+            document.getElementById("result").innerHTML = output;
+        }
+    </script>
+</head>
+<body>
+    <div id="result"></div>
+</body>
+</html>

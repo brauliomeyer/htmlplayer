@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<music>
+<composition>
+<title>Jack the Ripper vs Hannibal Lecter</title>
+<composer>Epic Rap Battles of History</composer>
+<time>3:05</time>
+<quality>[720p]</quality>
+<filename>Module/audio/Jack_the_Ripper_vs_Hannibal_Lecter.mp3</filename>
+</composition>
+<composition>
+    <title>Romeo and Juliet vs Bonnie and Clyde</title>
+    <composer>Epic Rap Battles of History</composer>
+    <time>3_06</time>
+    <quality>[720p]</quality>
+    <filename>Module/audio/Romeo_and_Juliet_vs_Bonnie_and_Clyde.mp3</filename>
+</composition>                  
+<composition>
+    <title>Goku vs Superman</title>
+    <composer>Epic Rap Battles of History</composer>
+    <time>1:48</time>
+    <quality>[720p]</quality>
+    <filename>Module/audio/Goku_vs_Superman.mp3</filename>
+</composition>
+<composition>
+    <title>George Washington vs William Wallace</title>
+    <composer>Epic Rap Battles of History</composer>
+    <time>2:32</time>
+    <quality>[720p]</quality>
+    <filename>Module/audio/George_Washington_vs_William_Wallace.mp3</filename>
+</composition> 
+<composition>
+    <title>Gandhi vs Martin Luther King Jr</title>
+    <composer>Epic Rap Battles of History</composer>
+    <time>1:37</time>
+    <quality>[720p]</quality>
+    <filename>Module/audio/Gandhi_vs_Martin_Luther_King_Jr.mp3</filename>
+</composition>       
+<composition>
+    <title>Sir Isaac Newton vs Bill Nye</title>
+    <composer>Epic Rap Battles of History</composer>
+    <time>2:47</time>
+    <quality>[720p]</quality>
+    <filename>Module/audio/Sir_Isaac_Newton_vs_Bill_Nye.mp3</filename>
+</composition>    
+<composition>
+    <title>Nikola Tesla vs Thomas Edison</title>
+    <composer>Epic Rap Battles of History </composer>
+    <time>2:03</time>
+    <quality>[720p]</quality>
+    <filename>Module/audio/Nikola_Tesla_vs_Thomas_Edison.mp3</filename>
+</composition>          
+<composition>
+    <title>STARSTRUKK ft. Kate Perry</title>
+    <composer>STARSTRUKK</composer>
+    <time>3:39</time>
+    <quality>[720p]</quality>
+    <filename>Module/audio/STARSTRUKK.mp3</filename>
+</composition>
+</music>
